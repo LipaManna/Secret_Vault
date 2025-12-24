@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#root:has(.dashboard-container) {
+  width: 100%;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.data-table-container {
+  margin-top: 2rem;
+}
+
+.data-table-button {
+  margin-right: 0.5rem;
+}
+
+
+.secret-detail-section {
+  margin-bottom: 1.5rem;
+}
+
+.secret-detail-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.secret-detail-field {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+}
+
+.secret-detail-field-content {
+  flex: 1;
+}
+
+.secret-detail-password {
+  flex: 1;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.secret-detail-notes {
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  min-height: 100px;
+  white-space: pre-wrap;
+}
+
+.secret-detail-created {
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.secret-detail-actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Password field with eye icon */
+.password-input-wrapper {
+  position: relative;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  color: #6c757d;
+  z-index: 10;
+}
+
+.password-toggle-btn:hover {
+  color: #495057;
+}
+
+.password-toggle-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
